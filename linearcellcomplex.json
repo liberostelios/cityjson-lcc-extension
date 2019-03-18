@@ -1,0 +1,10 @@
+{
+  "type": "CityJSON_Extension",
+  "name": "Noise",
+  "uri": "https://someurl.org/noise.json",
+  "version": "0.1",
+  "description": "Extension to model the noise"
+  "extraRootProperties": {},
+  "extraAttributes": {},
+  "extraCityObjects": {}
+}
