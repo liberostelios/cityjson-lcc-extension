@@ -1,10 +1,35 @@
 {
   "type": "CityJSON_Extension",
-  "name": "Noise",
-  "uri": "https://someurl.org/noise.json",
+  "name": "Linear Cell Complex (C-Map)",
+  "uri": "https://github.com/liberostelios/cityjson-lcc-extension",
   "version": "0.1",
-  "description": "Extension to model the noise"
-  "extraRootProperties": {},
-  "extraAttributes": {},
+  "description": "Extension to model the topology of the city as a linear cell complex based on a combinatorial map.",
+  "extraRootProperties": {
+    "+darts": {
+      "type": "object",
+      "properties": {
+        "betas": {
+          "type": "array",
+          "items": { "type": "number" }
+        },
+        "parents": {
+          "type": "array",
+          "items": { "type": "number" }
+        },
+        "vertices": {
+          "type": "array",
+          "items": { "type": "number" }
+        }
+      }
+    }
+  },
+  "extraAttributes": {
+    "_AbstractCityObject": {
+      "+LccVolumes": {
+        "type": "array",
+        "items": { "type": "number" }
+      }
+    }
+  },
   "extraCityObjects": {}
 }
