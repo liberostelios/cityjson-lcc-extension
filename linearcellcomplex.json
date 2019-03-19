@@ -25,7 +25,7 @@
   },
   "extraAttributes": {
     "_AbstractCityObject": {
-      "+LccVolumes": {
+      "+lccVolumes": {
         "type": "array",
         "items": { "type": "number" }
       }
