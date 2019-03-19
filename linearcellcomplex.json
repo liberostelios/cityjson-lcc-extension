@@ -16,11 +16,17 @@
           "type": "array",
           "items": { "type": "string" }
         },
+        "semanticSurfaces": {
+          "type": "array",
+          "items": { "type": "number" }
+        },
         "vertices": {
           "type": "array",
           "items": { "type": "number" }
         }
-      }
+      },
+      "required": [ "betas", "parents", "vertices" ],
+      "additionalProperties": false
     }
   },
   "extraAttributes": {
