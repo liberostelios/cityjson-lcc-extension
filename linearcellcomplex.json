@@ -14,7 +14,7 @@
         },
         "parents": {
           "type": "array",
-          "items": { "type": "number" }
+          "items": { "type": "string" }
         },
         "vertices": {
           "type": "array",
