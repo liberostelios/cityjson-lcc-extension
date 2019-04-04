@@ -24,7 +24,10 @@
         },
         "semanticSurfaces": {
           "type": "array",
-          "items": { "type": "number" }
+          "items": {
+            "type": "array",
+            "items": { "type": "number" }
+          }
         },
         "vertices": {
           "type": "array",
