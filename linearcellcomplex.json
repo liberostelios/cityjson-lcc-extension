@@ -8,11 +8,17 @@
     "+darts": {
       "type": "object",
       "properties": {
+        "count": {
+          "type": "number"
+        },
         "betas": {
           "type": "array",
-          "items": { "type": "number" }
+          "items": {
+            "type": "array",
+            "items": { "type": "number" }
+          }
         },
-        "parents": {
+        "parentCityObjects": {
           "type": "array",
           "items": { "type": "string" }
         },
@@ -25,7 +31,7 @@
           "items": { "type": "number" }
         }
       },
-      "required": [ "betas", "parents", "vertices" ],
+      "required": [ "count", "betas", "parentCityObjects", "vertices" ],
       "additionalProperties": false
     }
   },
