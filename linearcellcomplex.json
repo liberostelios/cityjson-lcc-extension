@@ -2,7 +2,7 @@
   "type": "CityJSON_Extension",
   "name": "Linear Cell Complex (C-Map)",
   "uri": "https://github.com/liberostelios/cityjson-lcc-extension",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Extension to model the topology of the city as a linear cell complex based on a combinatorial map.",
   "extraRootProperties": {
     "+darts": {
